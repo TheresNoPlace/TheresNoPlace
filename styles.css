@@ -432,14 +432,14 @@ section.about {
 }
 
 .screenings {
-  padding: 1px 0 40px;
+  padding: 1px 0 30px;
   background: var(--blue-sky);
 }
 
 .screenings-grid {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   max-width: 680px;
   margin: 0 auto;
   justify-content: space-between;

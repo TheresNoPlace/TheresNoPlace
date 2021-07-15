@@ -440,7 +440,7 @@ section.about {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  max-width: 680px;
+  max-width: 1080px;
   margin: 0 auto;
   justify-content: space-between;
   text-align: center;

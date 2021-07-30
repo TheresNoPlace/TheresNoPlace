@@ -496,6 +496,7 @@ section.about {
 @media all and (max-width: 780px) {
   .screenings-grid {
     flex-direction: column;
+    width: 80%;
   }
   .screenings-grid > div {
     margin-bottom: 20px;

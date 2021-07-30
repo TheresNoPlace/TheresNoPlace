@@ -316,7 +316,8 @@ header img {
   display: block;
   margin: auto;
   width: 90%;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 

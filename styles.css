@@ -499,6 +499,14 @@ section.about {
   .screenings-grid > div {
     margin-bottom: 20px;
   }
+  .mobile-logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+  }
 }
 
 .team-gallery-wrapper .flickity-prev-next-button {

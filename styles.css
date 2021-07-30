@@ -312,6 +312,8 @@ header img {
   display: block;
 }
 
+/*Center Single Images*/
+
 .image-block {
   display: block;
   margin: auto;
@@ -319,6 +321,11 @@ header img {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+/*Disable Image Downloads*/
+img {
+  pointer-events: none !important;
 }
 
 .logo-grid {

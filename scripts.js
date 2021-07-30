@@ -3,6 +3,12 @@ const arrowShape = {
   x1: 60, y1: 50,
   x2: 65, y2: 45,
   x3: 20
+
+}
+$('img').mousedown(function (e) {
+  if(e.button == 2) { // right click
+    return false; // do nothing!
+  }
 }
 
 const flickityDots = (dots, dotBox) => {

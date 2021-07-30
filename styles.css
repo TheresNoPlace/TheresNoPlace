@@ -500,9 +500,6 @@ section.about {
     margin-bottom: 20px;
   }
   .mobile-logo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
     max-width: 600px;

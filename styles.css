@@ -312,14 +312,14 @@ header img {
   display: block;
 }
 
-.logo-mobile {
-  width: 80%;
-  max-width: 600px;
+.image-block {
+  display: block;
   margin: auto;
+  width: 90%;
+  justify-content: space-between;
   text-align: center;
-  align-items: center;
-  justify-content: center;
 }
+
 .logo-grid {
   display: flex;
   flex-wrap:wrap;
@@ -498,12 +498,6 @@ section.about {
   }
   .screenings-grid > div {
     margin-bottom: 20px;
-  }
-  .mobile-logo {
-    margin: 0 auto;
-    width: 90%;
-    justify-content: space-between;
-    text-align: center;
   }
 }
 

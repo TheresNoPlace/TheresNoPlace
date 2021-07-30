@@ -454,6 +454,7 @@ section.about {
 .screenings {
   padding: 1px 0 34px;
   background: var(--blue-sky);
+  text-align: center;
 }
 
 .screenings-grid {
@@ -479,7 +480,7 @@ section.about {
   color: #fff;
 }
 
-.screenings-grid h3 {
+.screenings-grid h3, h4 {
   margin-bottom: 16px;
 }
 

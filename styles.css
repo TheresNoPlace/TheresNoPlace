@@ -308,6 +308,11 @@ header img {
   display: block;
 }
 
+.logo-mobile {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
 .logo-grid {
   display: flex;
   flex-wrap:wrap;

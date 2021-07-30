@@ -312,6 +312,9 @@ header img {
   width: 80%;
   max-width: 600px;
   margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .logo-grid {
   display: flex;

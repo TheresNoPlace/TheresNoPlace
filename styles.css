@@ -504,6 +504,8 @@ section.about {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
     justify-content: space-between;
     text-align: center;
   }

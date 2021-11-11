@@ -594,7 +594,7 @@ section.markham {
     margin: 0 auto;
     position: relative;
     top: -100px;
-    z-index: 500;
+    z-index: 99;
 }
 
 .markham-grid {

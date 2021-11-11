@@ -60,6 +60,7 @@ h4 {
 
 a {
   color: var(--blue-bright);
+  cursor: pointer;
 }
 
 /* elements */
@@ -308,6 +309,18 @@ header.press-header h1 {
   padding-top: 35vh;
 }
 
+header.markham-header {
+  background-image: url(./assets/markham-street-sky.jpg);
+  height: 50vh;   
+}
+
+header.markham-header h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 10vh;
+}
+
 header img {
   display: block;
 }
@@ -447,7 +460,7 @@ section.about {
 }
 
 .about-gallery-wrapper, 
-.team-gallery-wrapper {
+.team-gallery-wrapper{
   position: relative;
   padding-bottom: 140px;
 }
@@ -563,6 +576,52 @@ section.about {
 }
 .about-gallery-carousel.is-fullscreen .cell img {
   width: 100%;
+}
+
+/* Markham Street */
+
+section.markham {
+  padding-bottom: 0;
+}
+.markham-gallery {
+  background-image: url('./assets/markham-street-bkg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.markham-gallery-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    z-index: 500;
+}
+
+.markham-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.east {
+    padding-bottom: 75px;
+}
+
+.west {
+    margin-bottom: -120px;
+    bottom: -100px;
+}
+
+.markham-building img {
+    width: 100%;
+    }
+@media all and (max-width: 767px) {
+    .markham-building img {
+    width: 100%;
+    }
 }
 
 /* Team */

@@ -624,6 +624,53 @@ section.markham {
     }
 }
 
+/*Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #ffffff;
+    font-family: 'House Slant', sans-serif;
+    color: var(--blue-bright);
+    text-shadow: -6px 4px 0px var(--yellow);
+    font-size: 25px;
+    line-height: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media all and (max-width: 767px) {
+.tooltip .tooltiptext {
+  font-size: 1rem;
+  max-width: 20rem;
+  position: fixed;
+  bottom: auto; 
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%);
+  white-space: normal;
+    }
+}
+
 /* Team */
 .team {
   background: var(--blue-sky);
@@ -698,8 +745,6 @@ section.markham {
   background: var(--blue-sky);
   padding: 1px 0 80px;
 }
-
-
 
 .partners .grid {
   display: flex;

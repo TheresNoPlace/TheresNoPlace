@@ -602,7 +602,7 @@ section.markham h1 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    top: -100px;
+    top: -80px;
     z-index: 99;
 }
 
@@ -621,7 +621,7 @@ section.markham h1 {
 
 .west {
     padding-top: 5%;
-    margin-bottom: -120px;
+    margin-bottom: -100px;
     bottom: -100px;
 }
 

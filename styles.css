@@ -309,18 +309,6 @@ header.press-header h1 {
   padding-top: 35vh;
 }
 
-header.markham-header {
-  background-image: url(./assets/markham-street-sky.jpg);
-  height: 50vh;   
-}
-
-header.markham-header h1 {
-  color: white;
-  text-transform: uppercase;
-  font-size: 40px;
-  padding-top: 10vh;
-}
-
 header img {
   display: block;
 }
@@ -580,9 +568,30 @@ section.about {
 
 /* Markham Street */
 
+header.markham-header {
+  background-image: url(./assets/markham-street-sky.jpg);
+  height: 25vh;   
+}
+
 section.markham {
   padding-bottom: 0;
 }
+
+section.markham h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@media all and (max-width: 767px) {
+    section.markham h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    }
+}
+
 .markham-gallery {
   background-image: url('./assets/markham-street-bkg.jpg');
   background-size: cover;
@@ -593,7 +602,7 @@ section.markham {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    top: -100px;
+    top: -150px;
     z-index: 99;
 }
 
@@ -607,11 +616,12 @@ section.markham {
 }
 
 .east {
-    padding-bottom: 75px;
+    padding-bottom: 5%;
 }
 
 .west {
-    margin-bottom: -120px;
+    padding-top: 5%;
+    margin-bottom: -170px;
     bottom: -100px;
 }
 

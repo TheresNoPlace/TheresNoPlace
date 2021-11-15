@@ -587,7 +587,7 @@ section.markham h1 {
 
 @media all and (max-width: 767px) {
     section.markham h1 {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     }
 }
@@ -602,7 +602,7 @@ section.markham h1 {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    top: -80px;
+    top: -160px;
     z-index: 99;
 }
 
@@ -621,7 +621,7 @@ section.markham h1 {
 
 .west {
     padding-top: 5%;
-    margin-bottom: -100px;
+    margin-bottom: -180px;
     bottom: -100px;
 }
 
@@ -629,9 +629,18 @@ section.markham h1 {
     width: 100%;
     }
 @media all and (max-width: 767px) {
+    header.markham-header {
+  height: 15vh;   
+}
     .markham-building img {
     width: 100%;
     }
+        .markham-gallery-wrapper {
+    top: -20px;
+    }
+    .west {
+    margin-bottom: -40px;
+    } 
 }
 
 /*Tooltip*/

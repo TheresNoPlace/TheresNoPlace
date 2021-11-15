@@ -616,11 +616,11 @@ section.markham h1 {
 }
 
 .east {
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .west {
-    padding-top: 5%;
+    padding-top: 2%;
     margin-bottom: -180px;
     bottom: -100px;
 }
@@ -662,7 +662,7 @@ section.markham h1 {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    bottom: 100%;
+    bottom: 50%;
     left: 50%;
     margin-left: -100px;
     position: absolute;

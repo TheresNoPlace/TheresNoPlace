@@ -616,11 +616,11 @@ section.markham h1 {
 }
 
 .east {
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .west {
-    padding-top: 2%;
+    padding-top: 1%;
     margin-bottom: -180px;
     bottom: -100px;
 }
@@ -630,13 +630,13 @@ section.markham h1 {
     }
 @media all and (max-width: 767px) {
     header.markham-header {
-  height: 15vh;   
+  height: 10vh;   
 }
     .markham-building img {
     width: 100%;
     }
         .markham-gallery-wrapper {
-    top: -20px;
+    top: -40px;
     }
     .west {
     margin-bottom: -40px;
@@ -682,7 +682,6 @@ section.markham h1 {
   max-width: 20rem;
   position: fixed;
   bottom: auto; 
-  top: 50%;
   left: 50%;
   text-align: center;
   transform: translate(-50%);

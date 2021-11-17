@@ -656,13 +656,13 @@ section.markham h1 {
     font-family: 'House Slant', sans-serif;
     color: var(--blue-bright);
     text-shadow: -6px 4px 0px var(--yellow);
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     margin: auto;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    bottom: 50%;
+    bottom: 35%;
     left: 50%;
     margin-left: -100px;
     position: absolute;

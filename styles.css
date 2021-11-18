@@ -112,6 +112,9 @@ a {
   .mobile {
     display: none!important;
   }
+    .hide {
+  display: block!important;
+}
 }
 @media only screen and (max-width: 767px) {
 .hide {
